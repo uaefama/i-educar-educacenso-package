@@ -60,4 +60,3 @@ vendor/bin/pest -c packages/uaefama/i-educar-educacenso-package/phpunit.package.
 
 ---
 
-Powered by [Portábilis](https://uaefama.com.br/).
