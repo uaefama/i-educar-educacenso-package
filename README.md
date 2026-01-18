@@ -1,6 +1,6 @@
 # i-Educar Educacenso
 
-Módulo desacoplado do Educacenso para o [i-Educar](https://github.com/portabilis/i-educar).
+Módulo desacoplado do Educacenso para o [i-Educar](https://github.com/uaefama/i-educar).
 
 ## Instalação
 
@@ -9,7 +9,7 @@ Módulo desacoplado do Educacenso para o [i-Educar](https://github.com/portabili
 Clone este repositório a partir da raiz do i-Educar:
 
 ```bash
-git clone git@github.com:portabilis/i-educar-educacenso-package.git packages/portabilis/i-educar-educacenso-package
+git clone git@github.com:uaefama/i-educar-educacenso-package.git packages/uaefama/i-educar-educacenso-package
 ```
 
 Instale o pacote:
@@ -38,7 +38,7 @@ Isso é necessário para que as mudanças de URL sejam refletidas no cache dos m
 ## Fluxo de trabalho
 
 Todo commit, push e criação de branch de melhorias deverão ocorrer dentro da pasta
-`packages/portabilis/i-educar-educacenso-package`, dessa forma você estará manipulando o 
+`packages/uaefama/i-educar-educacenso-package`, dessa forma você estará manipulando o 
 repositório do Educacenso e não o repositório principal do i-Educar.
 
 ## Execução de testes
@@ -55,14 +55,9 @@ composer plug-and-play:update
 ### Executar os testes:
 
 ```bash
-vendor/bin/pest -c packages/portabilis/i-educar-educacenso-package/phpunit.package.xml --test-directory=packages/portabilis/i-educar-educacenso-package/tests
+vendor/bin/pest -c packages/uaefama/i-educar-educacenso-package/phpunit.package.xml --test-directory=packages/uaefama/i-educar-educacenso-package/tests
 ``` 
-
-## Perguntas frequentes (FAQ)
-
-Algumas perguntas aparecem recorrentemente. Olhe primeiro por aqui:
-[FAQ](https://github.com/portabilis/i-educar-website/blob/master/docs/faq.md).
 
 ---
 
-Powered by [Portábilis](https://portabilis.com.br/).
+Powered by [Portábilis](https://uaefama.com.br/).
